@@ -1,0 +1,205 @@
+/* 
+
+
+
+
+
+
+*/
+/* 
+
+
+    LAPTOPS & BIGGER SCREENS 
+
+
+
+*/
+@media only screen and (min-width: 1024px) {
+
+    /* 
+    
+        Social-Icons section
+      
+    */
+    .socialmedia_links {
+        font-size: 1.5rem;
+        gap: 1rem;
+    }
+
+    .social_icons_footer,
+    .social_icons_hero {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        color: #242424;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0.1em;
+        padding-top: 1px;
+        border-radius: 100%;
+        transition: all 0.4s;
+        font-size: 1.3rem;
+    }
+
+    .social_icons_footer::before,
+    .social_icons_hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        background: #0a66c2;
+        transform: scale(1.03);
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .social_icons_footer:nth-child(2)::before,
+    .social_icons_hero:nth-child(2)::before {
+        background: #934bd3;
+    }
+
+    .social_icons_footer:nth-child(3)::before,
+    .social_icons_hero:nth-child(3)::before {
+        background: #c32aa3;
+    }
+
+    .social_icons_footer:nth-child(4)::before,
+    .social_icons_hero:nth-child(4)::before {
+        background: #1da1f2;
+    }
+
+    .social_icons_footer:hover::before,
+    .social_icons_hero:hover::before {
+        transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+        filter: blur(10px);
+    }
+
+    .social_icons_footer:hover:nth-child(1),
+    .social_icons_hero:hover:nth-child(1) {
+        color: #0a66c2;
+        text-shadow: 0 0 30px #0a66c2;
+    }
+
+    .social_icons_footer:hover:nth-child(2),
+    .social_icons_hero:hover:nth-child(2) {
+        color: #934bd3;
+        text-shadow: 0 0 30px #934bd3;
+    }
+
+    .social_icons_footer:hover:nth-child(3),
+    .social_icons_hero:hover:nth-child(3) {
+        color: #c32aa3;
+        text-shadow: 0 0 30px #c32aa3;
+    }
+
+    .social_icons_footer:hover:nth-child(4),
+    .social_icons_hero:hover:nth-child(4) {
+        color: #1da1f2;
+        text-shadow: 0 0 30px #1da1f2;
+    }
+}
+
+/* 
+
+
+
+
+
+
+*/
+/* 
+
+
+    MOBILES & TABLETS 
+
+
+
+*/
+@media only screen and (max-width: 1023px) {
+
+    /* 
+
+        Social-Icons section
+    
+    */
+    .socialmedia_links {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .social_icons_footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        background: #0a66c2;
+        transform: scale(1.03);
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .social_icons_footer {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        color: #242424;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0.1em;
+        padding-top: 1px;
+        border-radius: 100%;
+        transition: all 0.4s;
+        font-size: 1.3rem;
+    }
+
+    .social_icons_footer:nth-child(2)::before {
+        background: #934bd3;
+    }
+
+    .social_icons_footer:nth-child(3)::before {
+        background: #c32aa3;
+    }
+
+    .social_icons_footer:nth-child(4)::before {
+        background: #1da1f2;
+    }
+
+    .social_icons_footer:hover::before {
+        transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+        filter: blur(10px);
+    }
+
+    .social_icons_footer:hover:nth-child(1) {
+        color: #0a66c2;
+        text-shadow: 0 0 30px #0a66c2;
+    }
+
+    .social_icons_footer:hover:nth-child(2) {
+        color: #934bd3;
+        text-shadow: 0 0 30px #934bd3;
+    }
+
+    .social_icons_footer:hover:nth-child(3) {
+        color: #c32aa3;
+        text-shadow: 0 0 30px #c32aa3;
+    }
+
+    .social_icons_footer:hover:nth-child(4) {
+        color: #1da1f2;
+        text-shadow: 0 0 30px #1da1f2;
+    }
+}

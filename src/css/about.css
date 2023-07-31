@@ -1,0 +1,134 @@
+/* 
+
+
+
+
+
+
+*/
+/* 
+
+
+    LAPTOPS & BIGGER SCREENS 
+
+
+
+*/
+@media only screen and (min-width: 1024px) {
+
+    /* 
+    
+        About section
+      
+    */
+    #about_container {
+        margin: 1rem 0 6rem 0;
+        padding-top: 5rem;
+    }
+
+    .about_canvas {
+        width: 38%;
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    .headshot_img {
+        width: 432px;
+        height: 432px;
+        border-radius: 5px;
+        margin: 20px 20px 0 0;
+        /* z-index: 2; */
+        overflow: hidden;
+        color: #ffffff;
+    }
+
+    .headshot_img_overlay {
+        border-radius: 5px;
+        background: rgba(33, 37, 41, 0.514);
+        overflow: hidden;
+        height: 100%;
+        /* z-index: 2; */
+        transition: background-color 0.5s;
+    }
+
+    .headshot_img_overlay:hover {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .about_contents {
+        width: 38%;
+    }
+
+    .about_contents_summary {
+        font-weight: 500;
+    }
+
+    .about_contents_button {
+        letter-spacing: 0.2rem;
+        font-size: 1.3rem;
+        padding: 7px 60px;
+        color: black;
+        background-color: #fff;
+        border: 1px black solid;
+        margin-left: 5px;
+        margin-top: 0.6rem;
+        /* border-radius: 0%; */
+        letter-spacing: 2px;
+    }
+
+    /* .about_contents_button {
+        position: relative;
+    } */
+}
+
+/* 
+
+
+
+
+
+
+*/
+/* 
+
+
+    MOBILES & TABLETS 
+
+
+
+*/
+@media only screen and (max-width: 1023px) {
+
+    /* 
+
+        About section
+    
+    */
+    #about_container {
+        margin: 20px 0 130px 0;
+        padding-top: 110px;
+    }
+
+    .about_contents {
+        margin: 0 2rem;
+    }
+
+    .about_contents_summary {
+        /* font-weight: 500; */
+        font-size: 17px;
+    }
+
+    .about_contents button {
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+        padding: 10px 40px;
+        color: black;
+        background-color: #fff;
+        border: 1px black solid;
+        letter-spacing: 2px;
+    }
+
+    .download_resume_icon {
+        font-size: 10px;
+    }
+}
